@@ -461,6 +461,7 @@ function searchSpots() {
             totalScore +=
                 spot.score[purpose] || 0;   //選んだ目的の点数が加算される スコア未設定も可
         });
+        /*
         // 同行者ボーナス
         if (
             selectedPeople &&
@@ -468,6 +469,7 @@ function searchSpots() {
         ) {
             totalScore += 1;
         }
+        */
         // 時間ボーナス
         if (
             selectedTime &&
